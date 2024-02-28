@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+
+        header {
+            background-color: #fff;
+            background-size: cover;
+            padding: 20px;
+            margin: 0px;
+        }
+
+        header > h1 {
+            padding-left: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            padding: 10px;
+            transition: all 0.5s;
+        }
+
+        nav > a:hover {
+            color: black;
+        }
+
+        main {
+            background-color: whitesmoke;
+            padding: 40px;
+        }
+
+        #assuntos {
+            color: blueviolet;
+        }
+
+        article > aside {
+            background-color: gray;
+            border-radius: 5px;
+            padding-left: 15px;
+            color: white;
+        }
+
+        footer {
+            background-color: black;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Serviços</a>
+            <a href="">Sobre</a>
+            <a href="">Ajuda</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Notícias</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Subtítulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vitae omnis quia nobis voluptates dignissimos cumque sed 
+                culpa repellendus cupiditate voluptas rerum unde corrupti, 
+                hic distinctio numquam fugit nam enim saepe?
+                </p>
+                <aside>Autor: Desconhecido</aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Developer</p>
+    </footer>
+</body>
+</html>
