@@ -189,8 +189,13 @@ footer cite {
 
 @media only screen and (max-width: 768px) {
 
-    main {
-        width: 87.5%;
+    header {
+        width: auto;
+        height: auto;
+    }
+
+    body {
+        overflow-x: hidden;
     }
 
     #subtitulo-do-site {
@@ -202,7 +207,9 @@ footer cite {
     }
 
     nav {
+        font-size: 12px;
         text-align: center;
+        margin-left: 0;
     }
 
     .subtitulos {
@@ -229,7 +236,7 @@ footer cite {
         border: 10px solid #043C1C;
         border-left: 30px solid #043C1C;
         border-right: 30px solid #043C1C;
-        width: 370px;
-        height: 315px;
+        width: auto;
+        height: auto;
     }
 }
