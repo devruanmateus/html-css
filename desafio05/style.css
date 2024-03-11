@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sriracha", serif;
+}
+
+/* Cabeçário */
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+#titulo-principal {
+    font-family: 'Passion One', sans-serif;
+    font-size: 80px;
+}
+
+#creditos {
+    font-size: 17px;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Verdana, sans-serif;
+    transition: all 0.5s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo */
+
+.poema {
+    font-size: 35px;
+    padding: 40px;
+}
+
+#estrofe2-background {
+    color: #fff;
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin: 40px 0px 40px 0px;
+    padding: 5px;
+}
+
+#estrofe5-background {
+    color: #fff;
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 40px 0px 40px 0px;
+    padding: 5px;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#rodape {
+    font-family: Verdana, Helvetica, sans-serif;
+
+}
+
+
