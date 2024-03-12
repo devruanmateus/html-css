@@ -47,7 +47,7 @@ a:hover {
 
 /* Conteúdo */
 
-.poema {
+section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
@@ -55,28 +55,30 @@ a:hover {
     font-size: 30px;
 }
 
-section.imagem {
+section.imagem > p {
     width: 400px;
-    background-color: #0000004b;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.425);
 }
 
-#estrofe2-background {
+#estrofe2 {
     color: #fff;
     background-image: url('imagens/background001.jpg');
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
     margin: 40px 0px 40px 0px;
-    padding: 5px;
+    padding: 30px;
 }
 
-#estrofe5-background {
+#estrofe5 {
     color: #fff;
     background-image: url('imagens/background002.jpg');
     background-size: cover;
     background-attachment: fixed;
     margin: 40px 0px 40px 0px;
-    padding: 5px;
+    padding: 30px;
 }
 
 /* Rodapé */
@@ -93,4 +95,18 @@ footer {
 
 }
 
+/* Adaptação para celular */
 
+@media screen and (max-width: 768px) {
+    section {
+        font-size: 23px;
+    }
+
+    section > p {
+        padding-bottom: 5vh;
+    }
+
+    section.imagem > p {
+        width: 300px;
+    }
+}
